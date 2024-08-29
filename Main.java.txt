@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        Aluno aluno = new Aluno("Willian",19,"202303870612");
+        Professor professor = new Professor("Almir",38,"Java");
+        Funcionario funcionario = new Funcionario("Carlos",35,"Secretário");
+        
+        System.out.println("Informações do Aluno:");
+        aluno.exibirinformacoes();
+        System.out.println();
+        
+        System.out.println("Informações do Professor:");
+        professor.exibirinformacoes();
+        System.out.println();
+        
+        System.out.println("Informações do Funcionario:");
+        funcionario.exibirinformacoes();
+        System.out.println();
+    }
+}

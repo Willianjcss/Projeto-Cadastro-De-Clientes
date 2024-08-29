@@ -1,0 +1,17 @@
+public class Funcionario extends Pessoa {
+    private String Cargo;
+    
+    public Funcionario(String nome, int idade, String Cargo) {
+        super(nome, idade);
+        this.Cargo=Cargo;
+    }    
+    
+    public String getCargo() {
+        return Cargo;
+    }
+    
+    public void exibirinformacoes() {
+        super.exibirinformacoes();
+        System.out.println("Cargo:" + Cargo);
+    }
+}
